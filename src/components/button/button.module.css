@@ -1,0 +1,20 @@
+.button {
+  border: none;
+  background-color: #1391af;
+  color: #fcf9e6;
+  margin: 1rem;
+  height: 2rem;
+  min-width: 2rem;
+  padding: 0.5rem;
+  line-height: 100%;
+}
+
+@media (hover: hover) {
+  .button:hover {
+    background-color: #89c8d7;
+  }
+}
+
+.button:active {
+  background-color: #339e1f;
+}
